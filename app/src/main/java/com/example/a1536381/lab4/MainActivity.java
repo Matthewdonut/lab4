@@ -9,24 +9,18 @@ import android.view.*;
 
 public class MainActivity extends AppCompatActivity {
 
-    Uri uri = Uri.parse("geo:"+R.string.country);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
     }
 
-    private void showMap(Uri geoLocation) {
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(geoLocation);
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        }
-    }
+    public void openMapActivity(View v) {
+        Intent sendIntent = new Intent(this, MapActivity.class);
+        sendIntent.putExtra("country", getString(R.string.country));
 
-    public void changeFlag(View v) {
-        showMap(uri);
+        //sendIntent.setType("text/plain");
+        if(sendIntent.resolveActivity(getPackageManager()) != null)
+            startActivity(sendIntent);
     }
 }

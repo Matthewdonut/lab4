@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">lab4</string>
-    <string name="country">English US</string>
+    <string name="country">English Canada</string>
     <string name="searchOnMaps">Search on Maps</string>
+    <string name="searchOnGoogle">Search on Google</string>
     <string name="location">Enter the location you are searching for</string>
     <string name="errors">Errors will be displayed here</string>
-    <string name="searchOnGoogle">Search on Google</string>
 </resources>

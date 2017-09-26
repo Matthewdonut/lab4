@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">lab4</string>
     <string name="country">Italia</string>
+    <string name="location">Entero theo locationo thato youo areo lookingo foro</string>
+    <string name="errors">Errorso willo beo displayedo hereo</string>
+    <string name="searchOnMaps">Searcho ono mapso</string>
+    <string name="searchOnGoogle">Searcho ono googleo</string>
 </resources>

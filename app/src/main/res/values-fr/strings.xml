@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">lab4</string>
     <string name="country">Francais</string>
+    <string name="location">Entrez le locale que vous desirez de rechercher</string>
+    <string name="errors">Erreurs vont etre ici</string>
+    <string name="searchOnMaps">Cherche sur maps</string>
+    <string name="searchOnGoogle">Cherche sur google</string>
 </resources>
